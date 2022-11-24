@@ -1,0 +1,25 @@
+﻿<Window x:Class="Newspaper.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Newspaper"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+        <Image Source="/Image/Приятный шелест лого.png" 
+               Margin="0,-6,696,0" />
+        <Label Content="Приятный шелест" 
+               HorizontalAlignment="Center" 
+               VerticalAlignment="Center" 
+               FontSize="36" 
+               FontFamily="Monotype Corsiva" 
+               Height="50" 
+               Width="266"/>
+
+    </Grid>
+</Window>
