@@ -24,5 +24,17 @@ namespace Newspaper
         {
             InitializeComponent();
         }
+        private void A1_Click(object sender, RoutedEventArgs e)
+        {
+            MyFrame.Content = new A1();
+        }
+        private void A2_Click(object sender, RoutedEventArgs e)
+        {
+            MyFrame.Content = new A2();
+        }
+        private void A3_Click(object sender, RoutedEventArgs e)
+        {
+            MyFrame.Content = new A3();
+        }
     }
 }

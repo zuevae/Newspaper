@@ -55,10 +55,31 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Page Include="A1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="A2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="A3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Compile Include="A1.xaml.cs">
+      <DependentUpon>A1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="A2.xaml.cs">
+      <DependentUpon>A2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="A3.xaml.cs">
+      <DependentUpon>A3.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
@@ -94,9 +115,14 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <Resource Include="Image\Приятный шелест лого.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\КиШ.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Денюфки.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

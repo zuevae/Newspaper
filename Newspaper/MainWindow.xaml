@@ -20,6 +20,50 @@
                FontFamily="Monotype Corsiva" 
                Height="50" 
                Width="266"/>
+        <Image Source="/Image/Денюфки.png" 
+               Grid.RowSpan="2" />
+
+        <Frame x:Name="MyFrame"
+               Grid.RowSpan="2"
+               NavigationUIVisibility="Hidden" 
+               Margin="145,72,10,0" 
+               FontFamily="Monotype Corsiva"/>
+        <Button x:Name="A1"
+                Content="Агент №1" 
+                Background="#FFC6D7FF"
+                HorizontalAlignment="Left" 
+                Margin="26,40,0,0" 
+                Grid.Row="1" 
+                VerticalAlignment="Top" 
+                FontFamily="Monotype Corsiva" 
+                Height="33" 
+                Width="78" 
+                FontSize="18"
+                Click="A1_Click"/>
+        <Button x:Name="A2"
+                Content="Агент №2" 
+                Background="#FFC6D7FF"
+                HorizontalAlignment="Left" 
+                Margin="26,100,0,0" 
+                Grid.Row="1" 
+                VerticalAlignment="Top" 
+                Height="33" 
+                Width="78" 
+                FontFamily="Monotype Corsiva" 
+                FontSize="18"
+                Click="A2_Click"/>
+        <Button x:Name="A3"
+                Content="Агент №3" 
+                Background="#FFC6D7FF"
+                HorizontalAlignment="Left" 
+                Margin="26,160,0,0" 
+                Grid.Row="1" 
+                VerticalAlignment="Top" 
+                Height="33" 
+                Width="78" 
+                FontFamily="Monotype Corsiva" 
+                FontSize="18"
+                Click="A3_Click"/>
 
     </Grid>
 </Window>
