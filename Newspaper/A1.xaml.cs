@@ -24,5 +24,19 @@ namespace Newspaper
         {
             InitializeComponent();
         }
+        public partial class print : Page
+        {
+            public Frame framel;
+            public List<A1> user = new List<A1>();
+            public print(Frame framel, List<A1> user)
+            {
+                this.framel = framel;
+                this.user = user;
+            }
+        }
+        private void Red1_Click(object sender, RoutedEventArgs e)
+        {
+            
+        }
     }
 }

@@ -35,7 +35,8 @@
                 FontSize="20" 
                 Background="#FF46B29D" 
                 FontFamily="Monotype Corsiva"/>
-        <Button Content="Редактирование" 
+        <Button x:Name="Red3"
+                Content="Редактирование" 
                 HorizontalAlignment="Left" 
                 Margin="56,269,0,0" 
                 VerticalAlignment="Top"

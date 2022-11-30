@@ -36,5 +36,6 @@ namespace Newspaper
         {
             MyFrame.Content = new A3();
         }
+        
     }
 }
