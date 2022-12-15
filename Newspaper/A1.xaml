@@ -44,6 +44,7 @@
                 Width="165" 
                 FontSize="20" 
                 Background="#FF46B29D" 
-                FontFamily="Monotype Corsiva" Click="Button_Click"/>
+                FontFamily="Monotype Corsiva" 
+                Click="Red1_Click"/>
     </Grid>
 </Page>
